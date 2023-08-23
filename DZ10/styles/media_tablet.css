@@ -1,0 +1,147 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .center {
+        padding-left: calc(50% - 50vw);
+        padding-right: calc(50% - 50vw);
+    }
+
+    .menu__bar {
+        width: 100vw;
+    }
+
+    .menu__groups {
+        width: 704px;
+    }
+
+    .banner {
+        max-width: 768px;
+        height: 367px;
+    }
+
+    .banner__image {
+        height: 367px;
+    }
+
+    .banner__brand {
+        width: 311px;
+        height: auto;
+        padding-left: 16px;
+    }
+
+    .brand__strong {
+        font-weight: 900;
+        width: calc(311px - 38px);
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .brand__normal {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .content {
+        width: 736px;
+    }
+
+    .content__menu {
+        max-width: 736px;
+        height: 303px;
+        grid-template-columns: repeat(3, 232px);
+        grid-template-rows: 167px;
+        gap: 20px;
+    }
+
+    .menu__item__text_strong {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .gallery__title {
+        margin-top: 109px;
+    }
+
+    .content__gallery {
+        max-width: 768px;
+        gap: 16px;
+        margin-top: 72px;
+    }
+
+    .gallery__footer {
+        margin-top: 33px;
+        margin-bottom: 70px;
+    }
+
+    .gallery__image__box:active {
+        z-index: 0;
+    }
+
+    .gallery__item__blend__hover:active {
+        z-index: 2;
+    }
+
+    .gallery__footer__button:active {
+        background-color: #FF6A6A;
+        ;
+        color: #FFF;
+    }
+
+
+    /* Footer */
+    /* Links */
+
+    .footer__links {
+        max-width: 768px;
+        min-height: 610px;
+    }
+
+    .footer__center {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer__link__card {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    /* Form */
+
+    .footer__form {
+        flex-direction: column;
+    }
+
+    /* Top-menu */
+    /* Drop-down menu */
+
+    .menu__pad {
+        left: -30px;
+        transform: translateY(-780px);
+    }
+
+   
+    .footer__bar__copy_nav {
+        max-width: 1024px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .footer__bar__text {
+        margin-left: 32px;
+    }
+
+    .footer__bar__menu {
+        margin-right: 32px;
+    }
+
+
+    .footer__social__icon:active {
+        background-color: #F16D7F;
+        color: #fff;
+    }
+
+}
